@@ -30,8 +30,12 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem 'graphql'
+
 group :development do
   gem 'listen', '~> 3.2'
+  gem 'graphiql-rails'
+  gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
