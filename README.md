@@ -1,24 +1,14 @@
-# README
+# Items Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Api repo for the Items app. It should be run in conjunction with the **items-client** repo.
 
-Things you may want to cover:
+## Up and running
 
-* Ruby version
+To get the app up and running, pull down this repo and run the following commands in your terminal:
 
-* System dependencies
+- `rails db:create db:migrate db:seed`
+- `rails s --port 5000`
 
-* Configuration
+### Notes
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This Api uses Postgres, so please have that running in the background as well.
