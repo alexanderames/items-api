@@ -13,12 +13,19 @@ To get the app up and running, pull down this repo and run the following command
 
 This Api uses Postgres, so please have that running in the background as well.
 
+## Objective
+
 - show a list of items
 - have name be the sole attribute on the item
 - show a way to create an item
 
-## Taco stand
+### Follow-up
 
-- drinks
-- tacos
-- sides
+When pairing later on this app, the acceptance criteria changed to include:
+
+- this Item app needs to be able to return different types
+  - drinks
+  - tacos
+  - sides
+
+My response was to add an Item Type Enum to Items. This would help classify each Item by their Type.
