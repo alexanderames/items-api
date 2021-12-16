@@ -12,3 +12,13 @@ To get the app up and running, pull down this repo and run the following command
 ### Notes
 
 This Api uses Postgres, so please have that running in the background as well.
+
+- show a list of items
+- have name be the sole attribute on the item
+- show a way to create an item
+
+## Taco stand
+
+- drinks
+- tacos
+- sides
