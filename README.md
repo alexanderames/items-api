@@ -13,6 +13,8 @@ To get the app up and running, pull down this repo and run the following command
 
 This Api uses Postgres, so please have that running in the background as well.
 
+If you'd like to use GraphiQL go to: `http://localhost:5000/graphiql`
+
 ## Objective
 
 - show a list of items
