@@ -9,6 +9,7 @@ module Mutations
         		item {
         			id
         			name
+              itemType
         		}
         	}
         }
@@ -20,10 +21,11 @@ module Mutations
 
         result = ItemsApiSchema.execute(
           mutation,
-          variables: { input: { name: 'See you again', userId: user.id } }
+          variables: { input: { name: 'slice of pizza', itemType: 'SIDE', userId: user.id } }
         )
 
-        expect(result['data']['createItem']['item']['name']).to eq('See you again')
+        expect(result['data']['createItem']['item']['name']).to eq('slice of pizza')
+        expect(result['data']['createItem']['item']['itemType']).to eq('SIDE')
       end
     end
   end
